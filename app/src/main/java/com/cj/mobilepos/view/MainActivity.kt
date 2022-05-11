@@ -1,7 +1,5 @@
 package com.cj.mobilepos.view
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import androidx.activity.viewModels
 import com.cj.mobilepos.R
 import com.cj.mobilepos.databinding.ActivityMainBinding
@@ -27,15 +25,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(){
 
     override fun initListener() {
         with(binding){
-//            btnRoom.setOnClickListener {
-//                val intent = Intent(this@MainActivity, RoomActivity::class.java)
-//                startActivity(intent)
-//
-//            }
-//            btnBle.setOnClickListener {
-//                val intent = Intent(this@MainActivity, BleActivity::class.java)
-//                startActivity(intent)
-//            }
+            //TODO:
         }
     }
 
