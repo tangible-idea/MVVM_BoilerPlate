@@ -18,6 +18,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(){
     }
 
     override fun initView() {
+
     }
 
     override fun initObserver() {
@@ -26,6 +27,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(){
     override fun initListener() {
         with(binding){
             //TODO:
+
         }
     }
 
